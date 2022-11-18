@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3517268AF594E55FA3AE5EBD /* libPods-TikakuniRestaurant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D11FD4D2C5CC8C891B7B854 /* libPods-TikakuniRestaurant.a */; };
+		8CB6713CBDFD97115AECA84A /* libPods-TikakuniRestaurant-TikakuniRestaurantUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 353056DB984B45703E4E78F5 /* libPods-TikakuniRestaurant-TikakuniRestaurantUITests.a */; };
+		95327F30292514F600D7C076 /* yosugara1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95327F2F292514F600D7C076 /* yosugara1.1.ttf */; };
+		95327F382925D02A00D7C076 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95327F372925D02A00D7C076 /* ResultView.swift */; };
+		95327F3B2925D12B00D7C076 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95327F3A2925D12B00D7C076 /* DetailView.swift */; };
+		95327F3D2925D1A100D7C076 /* SearchExecute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95327F3C2925D1A100D7C076 /* SearchExecute.swift */; };
+		955BA7A5291FED4200BC3E99 /* TikakuniRestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7A4291FED4200BC3E99 /* TikakuniRestaurantApp.swift */; };
+		955BA7A7291FED4200BC3E99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7A6291FED4200BC3E99 /* HomeView.swift */; };
+		955BA7A9291FED4300BC3E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955BA7A8291FED4300BC3E99 /* Assets.xcassets */; };
+		955BA7AC291FED4300BC3E99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955BA7AB291FED4300BC3E99 /* Preview Assets.xcassets */; };
+		955BA7AE291FED4300BC3E99 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7AD291FED4300BC3E99 /* Persistence.swift */; };
+		955BA7B1291FED4300BC3E99 /* TikakuniRestaurant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7AF291FED4300BC3E99 /* TikakuniRestaurant.xcdatamodeld */; };
+		955BA7BB291FED4300BC3E99 /* TikakuniRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7BA291FED4300BC3E99 /* TikakuniRestaurantTests.swift */; };
+		955BA7C5291FED4300BC3E99 /* TikakuniRestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7C4291FED4300BC3E99 /* TikakuniRestaurantUITests.swift */; };
+		955BA7C7291FED4300BC3E99 /* TikakuniRestaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7C6291FED4300BC3E99 /* TikakuniRestaurantUITestsLaunchTests.swift */; };
+		955BA7D4291FEE1000BC3E99 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7D3291FEE1000BC3E99 /* API.swift */; };
+		955BA7D6291FF1D700BC3E99 /* SearchOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7D5291FF1D700BC3E99 /* SearchOption.swift */; };
+		955BA7E02922A08700BC3E99 /* FavoriteShop+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7DE2922A08700BC3E99 /* FavoriteShop+CoreDataClass.swift */; };
+		955BA7E12922A08700BC3E99 /* FavoriteShop+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA7DF2922A08700BC3E99 /* FavoriteShop+CoreDataProperties.swift */; };
+		959F705F29265DBC0005AFEF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F705E29265DBC0005AFEF /* Utils.swift */; };
+		BCC46D29B0148BA4F0421437 /* libPods-TikakuniRestaurantTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7DE08D2971DC106D455573 /* libPods-TikakuniRestaurantTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		955BA7B7291FED4300BC3E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955BA799291FED4200BC3E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955BA7A0291FED4200BC3E99;
+			remoteInfo = TikakuniRestaurant;
+		};
+		955BA7C1291FED4300BC3E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955BA799291FED4200BC3E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955BA7A0291FED4200BC3E99;
+			remoteInfo = TikakuniRestaurant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D11FD4D2C5CC8C891B7B854 /* libPods-TikakuniRestaurant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TikakuniRestaurant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7DE08D2971DC106D455573 /* libPods-TikakuniRestaurantTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TikakuniRestaurantTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2912F7B4D69E7C193152347A /* Pods-TikakuniRestaurant-TikakuniRestaurantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikakuniRestaurant-TikakuniRestaurantUITests.release.xcconfig"; path = "Target Support Files/Pods-TikakuniRestaurant-TikakuniRestaurantUITests/Pods-TikakuniRestaurant-TikakuniRestaurantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		353056DB984B45703E4E78F5 /* libPods-TikakuniRestaurant-TikakuniRestaurantUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TikakuniRestaurant-TikakuniRestaurantUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA1831A4638A25272929F30 /* Pods-TikakuniRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikakuniRestaurant.release.xcconfig"; path = "Target Support Files/Pods-TikakuniRestaurant/Pods-TikakuniRestaurant.release.xcconfig"; sourceTree = "<group>"; };
+		52D908AA288D0A6B458DDC02 /* Pods-TikakuniRestaurantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikakuniRestaurantTests.release.xcconfig"; path = "Target Support Files/Pods-TikakuniRestaurantTests/Pods-TikakuniRestaurantTests.release.xcconfig"; sourceTree = "<group>"; };
+		562762BD6457A11C56926419 /* Pods-TikakuniRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikakuniRestaurant.debug.xcconfig"; path = "Target Support Files/Pods-TikakuniRestaurant/Pods-TikakuniRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		95327F2F292514F600D7C076 /* yosugara1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yosugara1.1.ttf; sourceTree = "<group>"; };
+		95327F372925D02A00D7C076 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		95327F3A2925D12B00D7C076 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		95327F3C2925D1A100D7C076 /* SearchExecute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchExecute.swift; sourceTree = "<group>"; };
+		9544765EA1BE1FA19BCF9853 /* Pods-TikakuniRestaurant-TikakuniRestaurantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikakuniRestaurant-TikakuniRestaurantUITests.debug.xcconfig"; path = "Target Support Files/Pods-TikakuniRestaurant-TikakuniRestaurantUITests/Pods-TikakuniRestaurant-TikakuniRestaurantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		955BA7A1291FED4200BC3E99 /* TikakuniRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikakuniRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		955BA7A4291FED4200BC3E99 /* TikakuniRestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikakuniRestaurantApp.swift; sourceTree = "<group>"; };
+		955BA7A6291FED4200BC3E99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		955BA7A8291FED4300BC3E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		955BA7AB291FED4300BC3E99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		955BA7AD291FED4300BC3E99 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		955BA7B0291FED4300BC3E99 /* TikakuniRestaurant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TikakuniRestaurant.xcdatamodel; sourceTree = "<group>"; };
+		955BA7B6291FED4300BC3E99 /* TikakuniRestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikakuniRestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		955BA7BA291FED4300BC3E99 /* TikakuniRestaurantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikakuniRestaurantTests.swift; sourceTree = "<group>"; };
+		955BA7C0291FED4300BC3E99 /* TikakuniRestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikakuniRestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		955BA7C4291FED4300BC3E99 /* TikakuniRestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikakuniRestaurantUITests.swift; sourceTree = "<group>"; };
+		955BA7C6291FED4300BC3E99 /* TikakuniRestaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikakuniRestaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		955BA7D3291FEE1000BC3E99 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		955BA7D5291FF1D700BC3E99 /* SearchOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchOption.swift; sourceTree = "<group>"; };
+		955BA7DE2922A08700BC3E99 /* FavoriteShop+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FavoriteShop+CoreDataClass.swift"; path = "TikakuniRestaurant/CoreData/SwiftFile/FavoriteShop+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		955BA7DF2922A08700BC3E99 /* FavoriteShop+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FavoriteShop+CoreDataProperties.swift"; path = "TikakuniRestaurant/CoreData/SwiftFile/FavoriteShop+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		959F705E29265DBC0005AFEF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B9DB63C25463D21244DDB323 /* Pods-TikakuniRestaurantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikakuniRestaurantTests.debug.xcconfig"; path = "Target Support Files/Pods-TikakuniRestaurantTests/Pods-TikakuniRestaurantTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		955BA79E291FED4200BC3E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3517268AF594E55FA3AE5EBD /* libPods-TikakuniRestaurant.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BA7B3291FED4300BC3E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC46D29B0148BA4F0421437 /* libPods-TikakuniRestaurantTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BA7BD291FED4300BC3E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB6713CBDFD97115AECA84A /* libPods-TikakuniRestaurant-TikakuniRestaurantUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C00826640449149C68FF8BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				562762BD6457A11C56926419 /* Pods-TikakuniRestaurant.debug.xcconfig */,
+				4DA1831A4638A25272929F30 /* Pods-TikakuniRestaurant.release.xcconfig */,
+				9544765EA1BE1FA19BCF9853 /* Pods-TikakuniRestaurant-TikakuniRestaurantUITests.debug.xcconfig */,
+				2912F7B4D69E7C193152347A /* Pods-TikakuniRestaurant-TikakuniRestaurantUITests.release.xcconfig */,
+				B9DB63C25463D21244DDB323 /* Pods-TikakuniRestaurantTests.debug.xcconfig */,
+				52D908AA288D0A6B458DDC02 /* Pods-TikakuniRestaurantTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95327F3129253B1000D7C076 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				955BA7D3291FEE1000BC3E99 /* API.swift */,
+				955BA7D5291FF1D700BC3E99 /* SearchOption.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		95327F3229253B2200D7C076 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				95327F3429253B6E00D7C076 /* SwiftFile */,
+				95327F392925D0B900D7C076 /* Database */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		95327F3329253B4A00D7C076 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				95327F2F292514F600D7C076 /* yosugara1.1.ttf */,
+				955BA7A8291FED4300BC3E99 /* Assets.xcassets */,
+				959F705E29265DBC0005AFEF /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		95327F3429253B6E00D7C076 /* SwiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				955BA7AD291FED4300BC3E99 /* Persistence.swift */,
+				955BA7DE2922A08700BC3E99 /* FavoriteShop+CoreDataClass.swift */,
+				955BA7DF2922A08700BC3E99 /* FavoriteShop+CoreDataProperties.swift */,
+			);
+			path = SwiftFile;
+			sourceTree = "<group>";
+		};
+		95327F3529253B8600D7C076 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				955BA7A4291FED4200BC3E99 /* TikakuniRestaurantApp.swift */,
+				955BA7A6291FED4200BC3E99 /* HomeView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		95327F362925CFFE00D7C076 /* ViewParts */ = {
+			isa = PBXGroup;
+			children = (
+				95327F372925D02A00D7C076 /* ResultView.swift */,
+				95327F3A2925D12B00D7C076 /* DetailView.swift */,
+				95327F3C2925D1A100D7C076 /* SearchExecute.swift */,
+			);
+			path = ViewParts;
+			sourceTree = "<group>";
+		};
+		95327F392925D0B900D7C076 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				955BA7AF291FED4300BC3E99 /* TikakuniRestaurant.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		955BA798291FED4200BC3E99 = {
+			isa = PBXGroup;
+			children = (
+				955BA7A3291FED4200BC3E99 /* TikakuniRestaurant */,
+				955BA7B9291FED4300BC3E99 /* TikakuniRestaurantTests */,
+				955BA7C3291FED4300BC3E99 /* TikakuniRestaurantUITests */,
+				955BA7A2291FED4200BC3E99 /* Products */,
+				4C00826640449149C68FF8BF /* Pods */,
+				AC538B6C1F8AFEE263E39742 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		955BA7A2291FED4200BC3E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955BA7A1291FED4200BC3E99 /* TikakuniRestaurant.app */,
+				955BA7B6291FED4300BC3E99 /* TikakuniRestaurantTests.xctest */,
+				955BA7C0291FED4300BC3E99 /* TikakuniRestaurantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955BA7A3291FED4200BC3E99 /* TikakuniRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				95327F3529253B8600D7C076 /* Main */,
+				95327F362925CFFE00D7C076 /* ViewParts */,
+				95327F3329253B4A00D7C076 /* Utils */,
+				95327F3229253B2200D7C076 /* CoreData */,
+				95327F3129253B1000D7C076 /* API */,
+				955BA7AA291FED4300BC3E99 /* Preview Content */,
+			);
+			path = TikakuniRestaurant;
+			sourceTree = "<group>";
+		};
+		955BA7AA291FED4300BC3E99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				955BA7AB291FED4300BC3E99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		955BA7B9291FED4300BC3E99 /* TikakuniRestaurantTests */ = {
+			isa = PBXGroup;
+			children = (
+				955BA7BA291FED4300BC3E99 /* TikakuniRestaurantTests.swift */,
+			);
+			path = TikakuniRestaurantTests;
+			sourceTree = "<group>";
+		};
+		955BA7C3291FED4300BC3E99 /* TikakuniRestaurantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				955BA7C4291FED4300BC3E99 /* TikakuniRestaurantUITests.swift */,
+				955BA7C6291FED4300BC3E99 /* TikakuniRestaurantUITestsLaunchTests.swift */,
+			);
+			path = TikakuniRestaurantUITests;
+			sourceTree = "<group>";
+		};
+		AC538B6C1F8AFEE263E39742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D11FD4D2C5CC8C891B7B854 /* libPods-TikakuniRestaurant.a */,
+				353056DB984B45703E4E78F5 /* libPods-TikakuniRestaurant-TikakuniRestaurantUITests.a */,
+				1E7DE08D2971DC106D455573 /* libPods-TikakuniRestaurantTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		955BA7A0291FED4200BC3E99 /* TikakuniRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955BA7CA291FED4300BC3E99 /* Build configuration list for PBXNativeTarget "TikakuniRestaurant" */;
+			buildPhases = (
+				0A015D45AA64A3264E0B46AE /* [CP] Check Pods Manifest.lock */,
+				955BA79D291FED4200BC3E99 /* Sources */,
+				955BA79E291FED4200BC3E99 /* Frameworks */,
+				955BA79F291FED4200BC3E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikakuniRestaurant;
+			productName = TikakuniRestaurant;
+			productReference = 955BA7A1291FED4200BC3E99 /* TikakuniRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		955BA7B5291FED4300BC3E99 /* TikakuniRestaurantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955BA7CD291FED4300BC3E99 /* Build configuration list for PBXNativeTarget "TikakuniRestaurantTests" */;
+			buildPhases = (
+				D94BA646EF4B08F9DD2801E1 /* [CP] Check Pods Manifest.lock */,
+				955BA7B2291FED4300BC3E99 /* Sources */,
+				955BA7B3291FED4300BC3E99 /* Frameworks */,
+				955BA7B4291FED4300BC3E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955BA7B8291FED4300BC3E99 /* PBXTargetDependency */,
+			);
+			name = TikakuniRestaurantTests;
+			productName = TikakuniRestaurantTests;
+			productReference = 955BA7B6291FED4300BC3E99 /* TikakuniRestaurantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		955BA7BF291FED4300BC3E99 /* TikakuniRestaurantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955BA7D0291FED4300BC3E99 /* Build configuration list for PBXNativeTarget "TikakuniRestaurantUITests" */;
+			buildPhases = (
+				ADD571B11BDB32A008E5C555 /* [CP] Check Pods Manifest.lock */,
+				955BA7BC291FED4300BC3E99 /* Sources */,
+				955BA7BD291FED4300BC3E99 /* Frameworks */,
+				955BA7BE291FED4300BC3E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955BA7C2291FED4300BC3E99 /* PBXTargetDependency */,
+			);
+			name = TikakuniRestaurantUITests;
+			productName = TikakuniRestaurantUITests;
+			productReference = 955BA7C0291FED4300BC3E99 /* TikakuniRestaurantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		955BA799291FED4200BC3E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					955BA7A0291FED4200BC3E99 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					955BA7B5291FED4300BC3E99 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 955BA7A0291FED4200BC3E99;
+					};
+					955BA7BF291FED4300BC3E99 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 955BA7A0291FED4200BC3E99;
+					};
+				};
+			};
+			buildConfigurationList = 955BA79C291FED4200BC3E99 /* Build configuration list for PBXProject "TikakuniRestaurant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 955BA798291FED4200BC3E99;
+			productRefGroup = 955BA7A2291FED4200BC3E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				955BA7A0291FED4200BC3E99 /* TikakuniRestaurant */,
+				955BA7B5291FED4300BC3E99 /* TikakuniRestaurantTests */,
+				955BA7BF291FED4300BC3E99 /* TikakuniRestaurantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		955BA79F291FED4200BC3E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955BA7AC291FED4300BC3E99 /* Preview Assets.xcassets in Resources */,
+				95327F30292514F600D7C076 /* yosugara1.1.ttf in Resources */,
+				955BA7A9291FED4300BC3E99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BA7B4291FED4300BC3E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BA7BE291FED4300BC3E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A015D45AA64A3264E0B46AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TikakuniRestaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD571B11BDB32A008E5C555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TikakuniRestaurant-TikakuniRestaurantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94BA646EF4B08F9DD2801E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TikakuniRestaurantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		955BA79D291FED4200BC3E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955BA7B1291FED4300BC3E99 /* TikakuniRestaurant.xcdatamodeld in Sources */,
+				955BA7AE291FED4300BC3E99 /* Persistence.swift in Sources */,
+				955BA7A7291FED4200BC3E99 /* HomeView.swift in Sources */,
+				95327F3B2925D12B00D7C076 /* DetailView.swift in Sources */,
+				95327F3D2925D1A100D7C076 /* SearchExecute.swift in Sources */,
+				955BA7A5291FED4200BC3E99 /* TikakuniRestaurantApp.swift in Sources */,
+				955BA7D6291FF1D700BC3E99 /* SearchOption.swift in Sources */,
+				955BA7E12922A08700BC3E99 /* FavoriteShop+CoreDataProperties.swift in Sources */,
+				955BA7D4291FEE1000BC3E99 /* API.swift in Sources */,
+				95327F382925D02A00D7C076 /* ResultView.swift in Sources */,
+				955BA7E02922A08700BC3E99 /* FavoriteShop+CoreDataClass.swift in Sources */,
+				959F705F29265DBC0005AFEF /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BA7B2291FED4300BC3E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955BA7BB291FED4300BC3E99 /* TikakuniRestaurantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955BA7BC291FED4300BC3E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955BA7C5291FED4300BC3E99 /* TikakuniRestaurantUITests.swift in Sources */,
+				955BA7C7291FED4300BC3E99 /* TikakuniRestaurantUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		955BA7B8291FED4300BC3E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955BA7A0291FED4200BC3E99 /* TikakuniRestaurant */;
+			targetProxy = 955BA7B7291FED4300BC3E99 /* PBXContainerItemProxy */;
+		};
+		955BA7C2291FED4300BC3E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955BA7A0291FED4200BC3E99 /* TikakuniRestaurant */;
+			targetProxy = 955BA7C1291FED4300BC3E99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		955BA7C8291FED4300BC3E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		955BA7C9291FED4300BC3E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		955BA7CB291FED4300BC3E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562762BD6457A11C56926419 /* Pods-TikakuniRestaurant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TikakuniRestaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JD92NU25P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikakuniRestaurant/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Egoshi.TikakuniRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		955BA7CC291FED4300BC3E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA1831A4638A25272929F30 /* Pods-TikakuniRestaurant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TikakuniRestaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JD92NU25P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikakuniRestaurant/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Egoshi.TikakuniRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		955BA7CE291FED4300BC3E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DB63C25463D21244DDB323 /* Pods-TikakuniRestaurantTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JD92NU25P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Egoshi.TikakuniRestaurantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikakuniRestaurant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikakuniRestaurant";
+			};
+			name = Debug;
+		};
+		955BA7CF291FED4300BC3E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D908AA288D0A6B458DDC02 /* Pods-TikakuniRestaurantTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JD92NU25P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Egoshi.TikakuniRestaurantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikakuniRestaurant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikakuniRestaurant";
+			};
+			name = Release;
+		};
+		955BA7D1291FED4300BC3E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9544765EA1BE1FA19BCF9853 /* Pods-TikakuniRestaurant-TikakuniRestaurantUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JD92NU25P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Egoshi.TikakuniRestaurantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikakuniRestaurant;
+			};
+			name = Debug;
+		};
+		955BA7D2291FED4300BC3E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2912F7B4D69E7C193152347A /* Pods-TikakuniRestaurant-TikakuniRestaurantUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JD92NU25P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Egoshi.TikakuniRestaurantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikakuniRestaurant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		955BA79C291FED4200BC3E99 /* Build configuration list for PBXProject "TikakuniRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955BA7C8291FED4300BC3E99 /* Debug */,
+				955BA7C9291FED4300BC3E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955BA7CA291FED4300BC3E99 /* Build configuration list for PBXNativeTarget "TikakuniRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955BA7CB291FED4300BC3E99 /* Debug */,
+				955BA7CC291FED4300BC3E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955BA7CD291FED4300BC3E99 /* Build configuration list for PBXNativeTarget "TikakuniRestaurantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955BA7CE291FED4300BC3E99 /* Debug */,
+				955BA7CF291FED4300BC3E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955BA7D0291FED4300BC3E99 /* Build configuration list for PBXNativeTarget "TikakuniRestaurantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955BA7D1291FED4300BC3E99 /* Debug */,
+				955BA7D2291FED4300BC3E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		955BA7AF291FED4300BC3E99 /* TikakuniRestaurant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				955BA7B0291FED4300BC3E99 /* TikakuniRestaurant.xcdatamodel */,
+			);
+			currentVersion = 955BA7B0291FED4300BC3E99 /* TikakuniRestaurant.xcdatamodel */;
+			path = TikakuniRestaurant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 955BA799291FED4200BC3E99 /* Project object */;
+}
